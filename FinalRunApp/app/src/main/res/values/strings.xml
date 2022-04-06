@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Kuntoharjoitukset</string>
+    <string name="action_settings">Settings</string>
+    <string name="next">Kirjaudu sisään</string>
+    <string name="first_fragment_label">firstFragment</string>
+    <string name="previous">Previous</string>
+    <string name="userHint">Nimi</string>
+    <string name="userPassword">Salasana</string>
+    <string name="title_activity_harjoitus_main">harjoitus_activity_main</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="excerspinner">Valitaan harjoituslaji</string>
+    <string name="spinnerDesc">Suoritettava Laji</string>
+    <string name="travel_text">00:00:00</string>
+    <string name="travel_avg">0.00 KM/H</string>
+    <string name="travel_dist">0.00 KM</string>
+    <string name="travel_spent_time">Kulunut aika:</string>
+    <string name="travel_avg_time">Keskiarvo nopeus:</string>
+    <string name="travel_distance">Menty matka:</string>
+    <string name="exercise_type">Laji:</string>
+    <string name="calories_text">Kalorit:</string>
+    <string name="calories_default">0 kcal.</string>
+    <string name="btn_start">ALOITA</string>
+    <string name="btn_end">LOPETA</string>
+    <string name="btn_save">Tallenna</string>
+    <string name="exercise">Laji</string>
+    <string name="run">Juoksu</string>
+    <string name="biking">Pyöräily</string>
+    <string name="skiing">Hiihto</string>
+    <string name="training">Harjoitukset</string>
+    <string name="program_date">Ohjelman päiväys</string>
+    <string name="program_choose_date">Valitse päivä</string>
+    <string name="program_chosen_progs">Valitun päivän vapaat ohjelmat</string>
+    <string name="weight_text">Paino (kg):</string>
+    <string name="weight_info">Painoa käytetään juoksun kalorien laskemiseen.</string>
+    <string name="weight_hint">Esim. 78.90</string>
+    <string name="new_training">UUSI HARJOITUS</string>
+    <string name="done_training">VALMIIT HARJOITUKSET</string>
+    <string name="app_settings">ASETUKSET</string>
+    <string name="training_img">Harjoittele kovaa!</string>
+    <string name="program_add">Liitä</string>
+    <string name="clock_time">Kellonaika</string>
+    <string name="program_header">Otsikko</string>
+    <string name="program_subject">Aihe</string>
+    <string name="map">Kartta</string>
+    <string name="program">Ohjelma</string>
+    <string name="del_program">Poista ohjelma</string>
+    <string name="program_route">Harjoituksen reitti</string>
+    <string name="journey_add_to_program">Liitä ohjelmaan</string>
+
+    <string name="title_activity_maps_results">MapsResultsActivity</string>
+    <string name="title_activity_valikko">ValikkoActivity</string>
+    <string name="title_activity_completed_exersices">CompletedExersices</string>
+    <string-array name="harj_lajit">
+        <item>Juoksu</item>
+        <item>Pyöräily</item>
+        <item>Hiihto</item>
+    </string-array>
+</resources>
