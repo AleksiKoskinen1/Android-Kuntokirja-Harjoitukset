@@ -29,8 +29,6 @@ public class MainActivity extends AppCompatActivity  {
         username = username.trim();
         password = password.trim();
 
-        username = "demo";
-        password = "pass";
         if(username.isEmpty() || password.isEmpty()){
             callBack.jsonResults(new JSONArray());
         }
@@ -38,10 +36,10 @@ public class MainActivity extends AppCompatActivity  {
             String url = "https://aleksi-kuntokirja.herokuapp.com/api/getUser/" + username + "/" + password;
 
             JsonArrayRequest jsonArrRequest = new JsonArrayRequest
-                (Request.Method.GET, url, null, response -> {
-                    callBack.jsonResults(response);
-                },
-                error -> Log.d("MyApp", "ERROR " + error));
+                (Request.Method.GET, url, null,
+                        callBack::jsonResults,
+                        error -> Log.d("MyApp", "ERROR " + error)
+                );
             MySingleton.getInstance(this).addToRequestQueue(jsonArrRequest);
         }
 

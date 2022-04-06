@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Kuntoharjoitukset</string>
     <string name="action_settings">Settings</string>
     <string name="next">Kirjaudu sisään</string>
@@ -46,6 +46,11 @@
     <string name="del_program">Poista ohjelma</string>
     <string name="program_route">Harjoituksen reitti</string>
     <string name="journey_add_to_program">Liitä ohjelmaan</string>
+    <string name="lofingo1">Testiä varten on luotu tunnus</string>
+    <string name="lofingo2">Nimi: demo Salasana: pass</string>
+    <string name="lofingo3">Oman tunnuksen voi luoda nettisivuilla</string>
+    <string name="lofingo4">https://aleksi-kuntokirja.herokuapp.com</string>
+    <string name="lofingo5">jolla sitten myös kirjautua sisään.</string>
 
     <string name="title_activity_maps_results">MapsResultsActivity</string>
     <string name="title_activity_valikko">ValikkoActivity</string>
