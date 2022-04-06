@@ -1,0 +1,2 @@
+# Android-Kuntokirja-Harjoitukset
+ Ohjelmalla voi tallentaa harjoituksen (Juoksu, Hiihto, Pyöräily). Se generoi on-the-go kartalle juostun reitin ja laskee käytetyn ajan/matkan/keskinopeuden/käytetyt kalorit. Se käyttää hyväksy kuntokirjan nettisivuja ( https://aleksi-kuntokirja.herokuapp.com/ ), joissa voi tehdä sovellukseen tilin, jota siinä voi sitten käyttää. Mobiilista tallennetun juoksureitin voi sitten liittää nettisivuilla tehtyyn ohjelmaan, jolloin sitä voi siellä myös tarkastella tuloksissa
